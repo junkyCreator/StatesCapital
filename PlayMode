@@ -1,0 +1,25 @@
+
+NavigationView{
+
+VStack{
+
+Text("States and Capital Game")
+
+Spacer().frame(height: 30)
+
+HStack{
+
+NavigationLink("Learn", destination: LearnView()).mask {
+        Rectangle()
+    }
+
+
+
+NavigationLink("PLay", destination: LearnView()).mask {
+        Rectangle()
+    }
+    
+}
+
+}
+}
